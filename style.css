@@ -1,0 +1,187 @@
+/*-------*/
+/*OVERALL*/
+/*-------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: Lato, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    background-color: #e1ddde;
+    color: #3c3c3c;
+}
+
+nav,
+footer {
+    background-color: #3c3c3c;
+    color: #e1ddde;
+    padding: 0.5% 2%;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+
+
+.logo {
+    height: 100px;
+    width: auto;
+    float: left;
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 50px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited{
+    padding: 8px 0;
+    color: #e1ddde;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active{
+    border-bottom: 2px solid #e1ddde;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+.footer-text {
+    float: left;
+    list-style: none;
+}
+
+.footer-text li {
+    display: inline-block;
+    margin: 15px 10px 0px 20px;
+}
+
+footer li a:link,
+footer li a:visited{
+    padding: 8px 0;
+    color: #e1ddde;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+footer li a:hover,
+footer li a:active{
+    border-bottom: 1px solid #e1ddde;
+}
+
+.social-links {
+    list-style: none;
+    float: right;
+}
+
+.social-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.social-links li a:link,
+.social-links li:visited {
+    text-decoration: none;
+    border: none;
+    color: #888;
+    transition: color 0.2s;
+}
+
+.social-links li a:link,
+.social-links li:visited {
+    font-size: 160%;
+}
+
+.bi-facebook,
+.bi-twitter,
+.bi-instagram {
+    transition: color 0.2s;
+    color: #888;
+}
+
+.bi-facebook:hover,
+.bi-facebook:active {
+    color: #3b5998;
+}
+
+.bi-twitter:hover,
+.bi-twitter:active {
+    color: #55acee;
+}
+
+.bi-instagram:hover,
+.bi-instagram:active {
+    color: #bc2a8d;
+}
+
+/*------------*/
+/*HOME STYLING*/
+/*------------*/
+
+.home {
+    color: #e1ddde;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(images/HomeBackground.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.HomeText {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+}
+
+.btn-light {
+    background-color: #e1ddde;
+    color: #3c3c3c;
+}
+
+.btn-outline-light {
+    border: 1px solid #e1ddde;
+}
+
+.btn:hover,
+.btn:active {
+    background-color: #34495e;
+    border: 1px solid #34495e;
+    color: #e1ddde;
+}
