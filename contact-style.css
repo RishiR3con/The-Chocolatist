@@ -1,0 +1,30 @@
+body{
+    background-color: #e1ddde;
+}
+
+.my-custom-row-1{
+    background-color: beige;
+    height: 400px;
+}
+
+.my-custom-row-2{
+    background-color: rgb(211, 211, 72);
+    height: 400px;
+}
+
+#map
+{
+    position: relative;
+    height: 100%;
+    width: 100%; 
+}
+
+
+
+
+
+
+
+
+
+
