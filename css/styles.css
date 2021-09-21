@@ -1,5 +1,5 @@
 body{
-    background-color: green;
+    background-color: white;
 }
 
 .about-section{
@@ -40,6 +40,40 @@ body{
     color: #656b79;
 }
 
+.team-container h1{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.team{
+    display: flex; /* make box side by side */
+    text-align: center;
+    width: auto;
+    justify-content: center; /*put box in middle*/
+}
+
+.team-member{
+    background-color: white;
+    margin: 100px;
+    width: 300px; /*width of box*/
+    padding: 20px; /*give space in box*/
+    line-height: 2;
+    color: #8e8b8b;
+    position: relative;
+}
+
+.team-member h3{
+    font-size: 26px;
+    margin-top: 50px;
+}
+
+.team-member img{
+    width: 25%;
+    height: 25%;
+}
+
+
+
 @media screen and (max-width: 1200px){
     .inner-container{
         padding: 80px;
@@ -64,3 +98,4 @@ body{
         padding: 60px;
     }
 }
+
