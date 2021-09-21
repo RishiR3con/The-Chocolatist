@@ -1,0 +1,41 @@
+body{
+    background-color: green;
+}
+
+.about-section{
+    background: url(../images/pexels-roman-odintsov-5847099.jpg) no-repeat left;
+    background-size: 55%;
+    background-color: #fdfdfd;
+    overflow: hidden;
+    padding: 100px 0;
+}
+
+.inner-container{
+    width: 55%;
+    float: right;
+    background-color: #fdfdfd;
+    padding: 100px;
+}
+
+.inner-container h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.inner-container p{
+    font-size: 13px;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.contact-btn{
+    color: white;
+}
+
+.contact-btn:hover{
+    color: #656b79;
+}
