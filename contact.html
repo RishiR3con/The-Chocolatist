@@ -27,53 +27,69 @@
 
 
 
-    <div class="container">
-
-
+    <div class="container-fluid mt-4 mb-5">
         <div class="row my-custom-row-1 justify-content-around">
-            <div class="col-md-3 mt-2 mb-2 border">
-                <div class="p-3 mt-2 border bg-light text-center">
-                    <img src="https://img.icons8.com/ios/50/000000/open-sign--v1.png" alt="Open sign" />
-                    <div>Opening Hours</div>
+            <div class="col-md-3 mt-2 mb-2 border justify-content-around">
+                <div class="p-3 mt-2 border bg-light text-center circle ">
+                    <img class="icon" src="https://img.icons8.com/ios/120/000000/open-sign--v1.png" alt="Open sign" />
+                    <div class="mt-2">
+                        <h5>Opening Hours</h5>
+                        <p class="p-hours">MO-FR: 9:00-17:00</p>
+                        <p class="p-hours">SAT: 10:00-14:00</p>
+                        <p class="p-hours">SUN: CLOSED</p>
+                    </div>
                 </div>
             </div>
             <div class="col-md-3 mt-2 mb-2 border text-center">
-                <div class="p-3 mt-2 border bg-light">
-                    <img src="https://img.icons8.com/ios/50/000000/address--v1.png" />
-                    <div>Visit us!</div>
+                <div class="p-3 mt-2 border bg-light circle">
+                    <img class="icon" src="https://img.icons8.com/ios/120/000000/address--v1.png" />
+                    <div class="mt-2">
+                        <h5>Visit Us</h5>
+                        <p>Sint-Pietersvliet 7<br>2000 Antwerpen<br>Belgium</p>
+                    </div>
                 </div>
             </div>
             <div class="col-md-3 mt-2 mb-2 border text-center">
-                <div class="p-3 mt-2 border bg-light">
-                    <img src="https://img.icons8.com/ios/50/000000/apple-phone.png" />
-                    <div>Give us a call!</div>
+                <div class="p-3 mt-2 border bg-light circle">
+                    <img class="icon" src="https://img.icons8.com/ios/120/000000/apple-phone.png" />
+                    <div class="mt-2">
+                        <h5>Give Us a Call</h5>
+                        <p>Don't hesitate to reach<br> out to us by calling<br>
+                            <a href="tel:123-456-7890">123-456-7890</a></p>
+                    </div>
                 </div>
 
             </div>
         </div>
         <hr>
+
+
         <div class="row my-custom-row-2 justify-content-around">
-            <div class="col-md-6 mt-2 mb-2 border">
+            <div class="col-md-4 mt-2 mb-2 border">
+                <h3 class="text-center mb-3">Location</h3>
                 <iframe id="map"
                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9994.576119069217!2d4.4009511!3d51.2256329!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x31d6c38718baba03!2sThe%20Beacon!5e0!3m2!1sen!2sbe!4v1632218942993!5m2!1sen!2sbe"
                 > 
             </iframe>
             </div>
 
-            <div class="col-md-6 mt-2 mb-2 border">
-                <form>
+            <div class="col-md-4 mt-2 mb-2 border">
+                <h3 class="text-center mb-3">Send Us a Message</h3>
+                <form class="mt-2" action="https://formsubmit.co/email@email.com" method="POST">
                     <div class="form-group">
                       <label for="exampleFormControlInput1">Name</label>
-                      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="John Doe">
+                      <input type="text" name="name" class="form-control"  placeholder="John Doe" required>
                     </div>
                     <div class="form-group">
-                        <label for="exampleFormControlInput1">Email address</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                        <label for="exampleFormControlInput1">Email Address</label>
+                        <input type="email" name="email" class="form-control"  placeholder="name@example.com" required>
                       </div>
                     <div class="form-group">
-                      <label for="exampleFormControlTextarea1">Example textarea</label>
-                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      <label for="exampleFormControlTextarea1">Message</label>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="How do I best store your chocolates?" required></textarea>
                     </div>
+                    <div class="text-right"><button type="submit" class="btn btn-outline-dark">Send Message</button></div>
+                    
                   </form>
                 <!-- <form action="https://formsubmit.co/amur567@gmail.com" method="POST">
                     <input type="text" name="name" required>
@@ -84,7 +100,23 @@
         </div>
     </div>
 
-
+<hr>
+    <footer>
+        <div class="col footer-text">
+            <ul class="">
+                <li>&copy The Chocolatist 2021</li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Terms</a></li>
+            </ul>
+        </div>
+         <div class="col social-links">
+             <ul class="">
+                 <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+                 <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+                 <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+             </ul>
+         </div>
+     </footer>
 </body>
 
 </html>
