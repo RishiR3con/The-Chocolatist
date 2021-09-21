@@ -1,0 +1,91 @@
+/*------------------------------------------------*/
+/*Big tablets to 1200px(width smaller then 1140px row*/
+/*------------------------------------------------*/
+
+@media only screen and (max-width: 1200px) {
+    .HomeText {
+        width: 100%;
+        padding: 0 2%;
+    }
+
+    .row {
+        padding: 0 2%;
+    }
+
+    .footer-text ul{
+        padding: 0;
+    }
+    .footer-text li {
+        display: inline-block;
+        margin: 15px 10px 0px 0px;
+    }
+}
+
+/*------------------------------------------------*/
+/*Small tablets to big tablet: from 768 to 1023px*/
+/*------------------------------------------------*/
+
+@media only screen and (max-width: 1023px) {
+    body {
+        font-size: 18px;
+    }
+
+    footer {
+        text-align: center;
+        max-resolution: 5px;
+        padding: 0;
+    }
+
+
+/*------------------------------------------------*/
+/*Small phones to small tablets: from 481 to 767px*/
+/*------------------------------------------------*/
+
+@media only screen and (max-width: 767px) {
+    body {
+        font-size: 16px;
+    }
+
+    .row,
+    .HomeText {
+        padding: 0 4%;
+    }
+
+    .col {
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+
+    .main-nav {
+        display: none;
+    }
+
+    .mobile-nav-icon {
+        display: inline-block;
+        float: right;
+    }
+
+    .mobile-nav-icon i {
+        font-size: 300%;
+        color: #fff;
+        display: inline-block;
+    }
+
+    .main-nav {
+        float: left;
+        margin-top: 35px;
+        margin-left: 25px;
+    }
+
+    .main-nav li {
+        display: block;
+    }
+
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 100%;
+    }
+
