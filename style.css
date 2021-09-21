@@ -24,6 +24,7 @@ footer {
     background-color: #3c3c3c;
     color: #e1ddde;
     padding: 0.5% 2%;
+    font-size: 50%;
 }
 
 nav {
@@ -66,7 +67,7 @@ nav {
 
 .main-nav li a:hover,
 .main-nav li a:active{
-    border-bottom: 2px solid #e1ddde;
+    border-bottom: 2px solid #B53471;
 }
 
 footer {
@@ -100,7 +101,7 @@ footer li a:visited{
 
 footer li a:hover,
 footer li a:active{
-    border-bottom: 1px solid #e1ddde;
+    border-bottom: 1px solid #B53471;
 }
 
 .social-links {
@@ -171,17 +172,18 @@ footer li a:active{
 }
 
 .btn-light {
-    background-color: #e1ddde;
-    color: #3c3c3c;
+    background-color: #B53471;
+    border: 1px solid #B53471;
+    color: #e1ddde;
 }
 
 .btn-outline-light {
-    border: 1px solid #e1ddde;
+    border: 1px solid #B53471;
 }
 
 .btn:hover,
 .btn:active {
-    background-color: #34495e;
-    border: 1px solid #34495e;
+    background-color: #B53471;
+    border: 1px solid #e1ddde;
     color: #e1ddde;
 }
