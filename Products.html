@@ -18,57 +18,59 @@
 
 </head>
 <body>
+<div id="demo" class="carousel slide" data-ride="carousel">
 
-
-<div class="content">
-
-    <div class="container">
-        <h2 class="my-5 text-center"></h2>
-    </div>
-
+<ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+    <li data-target="#demo" data-slide-to="3"></li>
+    <li data-target="#demo" data-slide-to="4"></li>
+    <li data-target="#demo" data-slide-to="5"></li>
+</ul>
 
     <div class="site-section bg-left-half mb-5">
         <div class="container owl-2-style">
 
             <h2 class="text-dark py-5 ">Our Products</h2>
 
-            <div class="owl-carousel owl-2">
-                <div class="media-29101">
+            <div class="owl-carousel owl-2" role="listbox">
+                <div class="item active">
                     <img src="images/hearts.jpg" alt="hearts" class="img-fluid">
-                    <h3>Chocolate Hearts</h3>
-                    <p>Romantic chocolate hearts filled with creamy caramel and crunchy biscuit.
-                        <br>€15</p>
-                    <button type="button" class="btn btn-secondary">Buy now</button>
+                         <h3>Chocolate Hearts</h3>
+                         <p>Romantic chocolate hearts filled with creamy caramel and crunchy biscuit.
+                             <br>€15</p>
+                         <button type="button" class="btn btn-secondary">Buy now</button>
                 </div>
-                <div class="media-29101">
+                <div class="item active">
                     <img src="images/spikey.jpg" alt="spikey praline" class="img-fluid">
                     <h3>Hazelnut Dream</h3>
                     <p>Soft chocolate treat filled with hazelnut cream.
                         <br>€13</p>
                     <button type="button" class="btn btn-secondary">Buy now</button>
                 </div>
-                <div class="media-29101">
+                <div class="item active">
                     <img src="images/berries.jpg" alt="berries" class="img-fluid">
                     <h3>Berry Delight</h3>
                     <p>Rich, dark chocolate with red fruit coulis filling.
                         <br>€14</p>
                     <button type="button" class="btn btn-secondary">Buy now</button>
                 </div>
-                <div class="media-29101">
+                <div class="item active">
                     <img src="images/hershey.jpg" alt="hershey" class="img-fluid">
                     <h3>Peanut Paradise</h3>
                     <p>The classic combination of chocolate and peanut butter.
                         <br>€12</p>
                     <button type="button" class="btn btn-secondary">Buy now</button>
                 </div>
-                <div class="media-29101">
+                <div class="item active">
                     <img src="images/moelleux.jpg" alt="moelleux" class="img-fluid">
                     <h3>Luscious Moelleux</h3>
                     <p>This small rich chocolate cake has a warm gooey center.
                         <br>€17</p>
                     <button type="button" class="btn btn-secondary">Buy now</button>
                 </div>
-                <div class="media-29101">
+                <div class="item active">
                     <img src="images/praline.jpg" alt="praline" class="img-fluid">
                     <h3>Sweet Pecan</h3>
                     <p>Crunchy candied pecans and a caramel ripple swirl.
@@ -76,16 +78,15 @@
                     <button type="button" class="btn btn-secondary">Buy now</button>
                 </div>
             </div>
-            <div class="customNavigation">
-                <a class="btn prev">Previous</a>
-                <a class="btn next">Next</a>
-            </div>
         </div>
+         <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+         </a>
+         <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+         </a>
     </div>
 </div>
-
-
-
 
 <script src="js/jquery-3.3.1.min.js"></script>
 <script src="js/popper.min.js"></script>
