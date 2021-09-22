@@ -29,12 +29,17 @@
 .inner-container h1 {
     margin-bottom: 30px;
     text-align: center;
+    color: #2B2B2B;
+    font-size: 30px;
+    font-weight: 900;
 }
 
 .inner-container p {
     line-height: 30px;
     text-align: justify;
     margin-bottom: 40px;
+    color: #2B2B2B;
+    font-size: 13px;
 }
 
 .inner-container a {
@@ -54,6 +59,9 @@
     text-align: center;
     margin-bottom: 50px;
     padding-top: 50px;
+    color: #2B2B2B;
+    font-size: 30px;
+    font-weight: 900;
 }
 
 .team-container {
@@ -86,6 +94,9 @@
 
 .team-member h3 {
     margin-top: 50px;
+    color: #2B2B2B;
+    font-size: 20px;
+    font-weight: 900;
 }
 
 .team-member p {
@@ -93,6 +104,7 @@
     text-align: justify;
     margin-bottom: 40px;
     padding: 0 20px;
+    font-size: 13px;
 }
 
 .team-member img {
