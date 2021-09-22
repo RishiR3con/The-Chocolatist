@@ -75,12 +75,13 @@ h2 {
 
     }
 
-    .carousel-item {
-      margin-bottom: 2px;
+    .carousel-inner {
+      margin-bottom: 20px;
       width: 300px;
       height: 900px;
       text-align: center;
+      position: bottom;
+    }
+    .carousel-item {
       position: center;
-
-
     }
