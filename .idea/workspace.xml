@@ -5,7 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/IMG_3256.JPG" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +36,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1632231615781</updated>
-      <workItem from="1632231617046" duration="4478000" />
+      <workItem from="1632231617046" duration="4889000" />
+      <workItem from="1632294089846" duration="2691000" />
+      <workItem from="1632296846479" duration="672000" />
     </task>
     <servers />
   </component>

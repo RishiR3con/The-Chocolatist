@@ -2,6 +2,11 @@ body{
     background-color: white;
 }
 
+.about-img img{
+    width: 100%;
+    height: 85vh;
+}
+
 .about-section{
     background: url(../images/pexels-roman-odintsov-5847099.jpg) no-repeat left;
     background-size: 55%;
@@ -42,7 +47,8 @@ body{
 
 .team-container h1{
     text-align: center;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
+    margin-top: 60px;
 }
 
 .team{
@@ -50,16 +56,22 @@ body{
     text-align: center;
     width: auto;
     justify-content: center; /*put box in middle*/
+    flex-wrap: wrap;
 }
 
 .team-member{
-    background-color: white;
     margin: 100px;
     width: 300px; /*width of box*/
     padding: 20px; /*give space in box*/
     line-height: 2;
     color: #8e8b8b;
     position: relative;
+    background-color: aliceblue;
+    border-radius: 6px;
+}
+
+.team-member img{
+
 }
 
 .team-member h3{
@@ -68,11 +80,10 @@ body{
 }
 
 .team-member img{
-    width: 25%;
-    height: 25%;
+    width: 40%;
+    height: 40%;
+    margin-top: 15px;
 }
-
-
 
 @media screen and (max-width: 1200px){
     .inner-container{
@@ -98,4 +109,3 @@ body{
         padding: 60px;
     }
 }
-
