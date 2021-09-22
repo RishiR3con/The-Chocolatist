@@ -55,37 +55,3 @@
         width: 100%;
         margin: 0 0 4% 0;
     }
-
-    .main-nav {
-        display: none;
-    }
-
-    .mobile-nav-icon {
-        display: inline-block;
-        float: right;
-    }
-
-    .mobile-nav-icon i {
-        font-size: 300%;
-        color: #fff;
-        display: inline-block;
-    }
-
-    .main-nav {
-        float: left;
-        margin-top: 35px;
-        margin-left: 25px;
-    }
-
-    .main-nav li {
-        display: block;
-    }
-
-    .main-nav li a:link,
-    .main-nav li a:visited {
-        display: block;
-        border: 0;
-        padding: 10px 0;
-        font-size: 100%;
-    }
-

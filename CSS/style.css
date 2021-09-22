@@ -8,6 +8,10 @@
     box-sizing: border-box;
 }
 
+/*--------*/
+/*REUSABLE*/
+/*-------*/
+
 html,
 body {
     font-family: Lato, Arial, sans-serif;
@@ -34,20 +38,44 @@ nav {
     z-index: 9999;
 }
 
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    font-size: 70%;
+}
 
+/*------*/
+/*NAVBAR*/
+/*-----*/
 
+/*LOGO*/
 .logo {
     height: 100px;
     width: auto;
     float: left;
 }
 
+/*HAMBURGER*/
 .bi-list {
-    display: none;
+    color: #e1ddde;
+    font-size: 200%;
+    margin-top: 25px;
+    border: none;
 }
 
+button {
+    color: #3c3c3c;
+}
+
+.nav-item {
+    text-align: center;
+}
+
+/*MAIN NAV*/
 .main-nav {
-    float: right;
     list-style: none;
     margin-top: 50px;
 }
@@ -73,14 +101,9 @@ nav {
     border-bottom: 2px solid #B53471;
 }
 
-footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    z-index: 9999;
-    font-size: 70%;
-}
+/*-------*/
+/*FOOTER*/
+/*------*/
 
 .footer-text {
     float: left;
