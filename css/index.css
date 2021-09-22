@@ -15,8 +15,8 @@
 html,
 body {
     font-family: Lato, Arial, sans-serif;
-    background-color: #e1ddde;
-    color: #3c3c3c;
+    background-color: #e1ddde!important;
+    color: #3c3c3c!important;
 }
 
 .home {
@@ -196,7 +196,7 @@ footer li a:active{
 /*HOME STYLING*/
 /*------------*/
 
-.home {
+.home-background {
     color: #e1ddde;
     background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../images/HomeBackground.jpg);
     background-size: cover;
@@ -213,6 +213,7 @@ footer li a:active{
     left: 50%;
     transform: translate(-50%, -50%);
     text-transform: uppercase;
+    color: #e1ddde;
 }
 
 h1 {
