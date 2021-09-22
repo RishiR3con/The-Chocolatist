@@ -1,12 +1,13 @@
 :root {
   --clr-primary-dark: black;
-  --clr-primary-light:white;
+  --cl-primary-light: #e1ddde;
+  --clr-secondary-light:#eee;
 }
 
 
 
 body {
-  background-color:var(--clr-primary-light);
+  background-color:var(--clr-secondary-light);
   font-family:  'Lato', Arial, sans-serif;
   font-size: 20px;
 }
@@ -14,7 +15,7 @@ body {
 
 .container {
   background-color: var(--clr-primary-dark);
-  color: var(--clr-primary-light);
+  color: var(--clr-secondary-light);
 }
 
 h5 {
@@ -42,6 +43,7 @@ label{
  }
 
 .circle{
+    background-color: var(--clr-secondary-light);
     border-radius: 40%;
     height: 75%;
     max-width: 100%;
@@ -51,21 +53,19 @@ label{
 }
 
 .my-custom-row-1 {
-  background-color: var(--clr-primary-light);
   height: 400px;
   color: var(--clr-primary-dark);
   font-size: 1.2rem !important;
 }
 
 .my-custom-row-2 {
-  background-color: var(--clr-primary-light);
   height: 500px;
   color: var(--clr-primary-dark);
   margin-bottom: 120px;
 }
 
 .my-custom-row-3 {
-    background-color: var(--clr-primary-light);
+    background-color: var(--clr-secondary-light);
     color: var(--clr-primary-dark);
   }
 
@@ -74,6 +74,9 @@ ul{
   justify-content: center !important;
 }
 
+#social-links-contact{
+  justify-content: flex-end !important;
+}
 #map {
   position: relative;
   height: 80%;
@@ -93,6 +96,7 @@ ul{
 }
 
 .rounded-corner{
+  background-color: var(--clr-secondary-light);;
   border-radius: 10%;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
@@ -137,7 +141,7 @@ ul{
 
 @media (max-width:870px){
   .my-custom-row-1 {
-    background-color: var(--clr-primary-light);
+    background-color: var(--clr-secondary-light);
     height: 400px;
     color: var(--clr-primary-dark);
     font-size: 1rem;
@@ -175,7 +179,7 @@ ul{
   }
 
   .my-custom-row-2 {
-    background-color: var(--clr-primary-light);
+    background-color: var(--clr-parimary-light);
     height: 820px;
   }
 
@@ -207,6 +211,7 @@ ul{
   }
 
   .circle{
+    background-color: var(--clr-secondary-light);
     border-radius: 50%;
     height: 80%;
     width: 100%;
@@ -214,6 +219,9 @@ ul{
     margin-right: 5px;
     margin-left: 5px;
 }
+
+
+
 #map {
   position: relative;
   height: 60%;
