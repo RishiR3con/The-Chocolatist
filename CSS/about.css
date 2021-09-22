@@ -35,6 +35,11 @@
     margin-bottom: 40px;
 }
 
+.inner-container a{
+    text-decoration: none;
+    color: #F2F2F2;
+}
+
 .contact-btn{
     color: white;
 }
