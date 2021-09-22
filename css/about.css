@@ -4,7 +4,7 @@
     width: 100%;
     height: 100vh;
     display: flex;
-    object-fit: contain;
+    object-fit: cover;
     /*make img cover*/
 }
 
@@ -44,11 +44,13 @@
 
 .inner-container a {
     text-decoration: none;
-    color: #F2F2F2;
+    color: #2B2B2B;
+    transition: ease-in-out;
 }
 
 .contact-btn {
     color: white;
+    border-color: #2B2B2B;
 }
 
 .contact-btn:hover {
@@ -88,6 +90,7 @@
 
 .team-member:hover{
     box-shadow: 0 0 20px;
+    transition: ease-in-out;
 }
 
 .team-member img {}
