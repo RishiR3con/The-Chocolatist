@@ -4,6 +4,10 @@ body {
 p {
   color: #b3b3b3;
   font-weight: 300; }
+h3 {
+  color: #c3c3c3;
+  font-weight: 300;
+}
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
