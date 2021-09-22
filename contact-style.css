@@ -1,6 +1,6 @@
 :root {
-  --clr-primary-dark: #3c3c3c;
-  --clr-primary-light: #e1ddde;
+  --clr-primary-dark: black;
+  --clr-primary-light:white;
 }
 
 body {
@@ -60,7 +60,7 @@ label{
 
 #map {
   position: relative;
-  height: 90%;
+  height: 80%;
   width: 100%;
 }
 
@@ -68,6 +68,29 @@ label{
   height: 7rem;
 }
 
+.row-2-title-location{
+  margin-top: 0.5rem;
+}
+
+.row-2-title-message{
+  margin-top: 1rem;
+}
+
+
+@media (max-width:1100px){
+  .my-custom-row-1 {
+    background-color: var(--clr-primary-light);
+    height: 400px;
+    color: var(--clr-primary-dark);
+    font-size: 1rem;
+  }
+
+
+
+  .icon {
+    height: 5rem;
+  }
+}
 
 
 
@@ -79,12 +102,32 @@ label{
 
   .my-custom-row-2 {
     background-color: var(--clr-primary-light);
-    height: 600px;
+    height: 820px;
+  }
+
+  label{
+    font-size: 1rem;
   }
 
   .icon {
+    margin-top: 1.5rem;
     height: 3rem;
   }
+
+  .row-2-title-location{
+    margin-top: 2rem;
+  }
+
+  .row-2-title-message{
+    margin-top: 5rem;
+  }
+
+  .circle{
+    border-radius: 50%;
+    height: 80%;
+    width: auto;
+    max-width: 100%;
+}
 
 }
 
