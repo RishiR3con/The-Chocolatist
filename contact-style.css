@@ -3,9 +3,13 @@
   --clr-primary-light:white;
 }
 
+
+
 body {
   background-color:var(--clr-primary-light);
+  font-family:  'Lato', Arial, sans-serif;
 }
+
 
 .container {
   background-color: var(--clr-primary-dark);
@@ -14,6 +18,7 @@ body {
 
 h5 {
   margin-bottom: 1rem;
+  font-weight: 700;
 }
 
 .btn {
@@ -38,6 +43,7 @@ label{
     border-radius: 40%;
     height: 80%;
     max-width: 100%;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
 .my-custom-row-1 {
@@ -76,6 +82,14 @@ label{
   margin-top: 1rem;
 }
 
+.rounded-corner{
+  border-radius: 10%;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+
+
+
 
 @media (max-width:1100px){
   .my-custom-row-1 {
@@ -85,13 +99,49 @@ label{
     font-size: 1rem;
   }
 
-
+  h5{
+    font-size: 1rem;
+  }
 
   .icon {
     height: 5rem;
   }
 }
 
+@media(max-width: 999px){
+  .col-md-4{
+    flex-grow: 1; 
+    max-width:40%;
+  }
+}
+
+
+
+@media (max-width:870px){
+  .my-custom-row-1 {
+    background-color: var(--clr-primary-light);
+    height: 400px;
+    color: var(--clr-primary-dark);
+    font-size: 1rem;
+  }
+
+  .col-md-4{
+    flex-grow: 1; 
+    max-width:40%;
+  }
+
+  h5{
+    font-size: 1rem;
+  }
+
+  .icon {
+    height: 4rem;
+  }
+
+  .div-btn{
+    margin-top: 2px !important;
+  }
+}
 
 
 @media (max-width: 768px) {
@@ -103,6 +153,11 @@ label{
   .my-custom-row-2 {
     background-color: var(--clr-primary-light);
     height: 820px;
+  }
+
+  .col-md-4{
+    flex-grow: 0; 
+    max-width:100%;
   }
 
   label{
@@ -125,8 +180,20 @@ label{
   .circle{
     border-radius: 50%;
     height: 80%;
-    width: auto;
+    width: 100%;
     max-width: 100%;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+#map {
+  position: relative;
+  height: 60%;
+  width: 100%;
+}
+
+.rounded-corner{
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 }
