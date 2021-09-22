@@ -50,13 +50,8 @@
     text-align: center;
 
 }
-.btn prev{  background-color: #04AA6D;
-    color: white;
-}
-.btn next{
 
-}
-}
+
   .customNavigation a{
       -webkit-user-select: auto;
       -khtml-user-select: none;
