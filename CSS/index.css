@@ -153,7 +153,7 @@ footer li a:active{
 
 .social-links li {
     display: inline-block;
-    margin-lef: 10px;
+    margin-left: 10px;
     align-items: center;
 }
 
@@ -296,7 +296,6 @@ h1 {
 
     footer {
         text-align: center;
-        max-resolution: 5px;
         padding: 0;
     }
 }
