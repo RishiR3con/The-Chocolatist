@@ -23,6 +23,7 @@
     background-color: #F2F2F2;
     padding: 100px;
     /*about text box padding space*/
+    border-radius: 10px;
 }
 
 .inner-container h1 {
@@ -60,25 +61,25 @@
 }
 
 .team {
-    display: flex;
-    /* make box side by side */
+    display: flex; /* make box side by side */
     text-align: center;
     width: auto;
-    justify-content: center;
-    /*put box in middle*/
-    flex-wrap: wrap;
+    justify-content: center; /*put box in middle*/
+    flex-wrap: wrap; /*fix if the content is overflow outside the box*/
 }
 
 .team-member {
     margin: 100px;
-    width: 300px;
-    /*width of box*/
-    padding: 20px;
-    /*give space in box*/
+    width: 300px; /*width of box*/
+    padding: 20px; /*give space in box*/
     line-height: 2;
     position: relative;
-    background-color: aliceblue;
-    border-radius: 6px;
+    background-color: #E8E8E8;
+    border-radius: 10px;
+}
+
+.team-member:hover{
+    box-shadow: 0 0 20px;
 }
 
 .team-member img {}
