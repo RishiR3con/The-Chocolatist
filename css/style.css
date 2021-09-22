@@ -74,3 +74,13 @@ h2 {
     .bi-caret-left {color: #3c3c3c;
 
     }
+
+    .carousel-item {
+      margin-bottom: 2px;
+      width: 300px;
+      height: 900px;
+      text-align: center;
+      position: center;
+
+
+    }
