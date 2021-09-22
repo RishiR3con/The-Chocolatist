@@ -30,13 +30,7 @@ footer {
     padding: 0.5% 2%;
 }
 
-nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 9999;
-}
+
 
 footer {
     position: fixed;
