@@ -22,7 +22,7 @@
     width: auto;
     position: center;
     text-align: center;
-    float: bottom;
+    float: none;
     text: bottom
 }
 .caption {
@@ -67,7 +67,6 @@
      padding: 1px;
      width: 50%;
      font-weight: 300;
-
  }
 
  #container{
