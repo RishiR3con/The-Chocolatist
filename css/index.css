@@ -53,7 +53,7 @@ footer {
 
 
 /*------*/
-/*NAVBAR*/
+/*HEADER*/
 /*-----*/
 
 .navbar {
@@ -61,7 +61,13 @@ footer {
     padding-bottom: 0;
 }
 
-
+.sticky-top {
+    font-size: 22px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
 /*LOGO*/
 
 .logo {
