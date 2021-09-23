@@ -33,7 +33,7 @@
     <script>
         const params = new URLSearchParams(window.location.search)
         console.log(params.get('msg'))
-        if (params) {
+        if (params.get('msg') == 'true') {
             window.alert("Thank you for your message! We'll get back to you as soon as possible :D")
         }
     </script>
