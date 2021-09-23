@@ -29,17 +29,17 @@
 .inner-container h1 {
     margin-bottom: 30px;
     text-align: center;
-    color: #2B2B2B;
+    /*color: #2B2B2B;
     font-size: 30px;
-    font-weight: 900;
+    font-weight: 900;*/
 }
 
 .inner-container p {
     line-height: 30px;
     text-align: justify;
     margin-bottom: 40px;
-    color: #2B2B2B;
-    font-size: 13px;
+    /*color: #2B2B2B;
+    font-size: 13px;*/
 }
 
 .inner-container a {
@@ -61,9 +61,9 @@
     text-align: center;
     margin-bottom: 50px;
     padding-top: 50px;
-    color: #2B2B2B;
+    /*color: #2B2B2B;
     font-size: 30px;
-    font-weight: 900;
+    font-weight: 900;*/
 }
 
 .team-container {
@@ -93,13 +93,11 @@
     transition: ease-in-out;
 }
 
-.team-member img {}
-
 .team-member h3 {
     margin-top: 50px;
     color: #2B2B2B;
-    font-size: 20px;
-    font-weight: 900;
+    /*font-size: 20px;
+    font-weight: 900;*/
 }
 
 .role{
