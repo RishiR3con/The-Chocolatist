@@ -19,11 +19,11 @@
 
 .carousel-item {
     height: 80vh;
-    width: auto;
+    width: 100vw;
     position: center;
     text-align: center;
     float: bottom;
-    text: bottom
+    text: bottom;
 }
 .caption {
     text-align: center;
@@ -35,7 +35,11 @@
     bottom: auto;
     text: bottom;
 
-
+}
+.highlight {
+    background-color: #3c3c3cbb;
+    padding: 1px;
+    max-width: 50%;
 }
  .d-block {
      position: absolute;
@@ -63,10 +67,8 @@
      padding: 0.5% 2%;
  }
 
-span{
-     background-color: #3c3c3c;
-    padding: 1px;
- }
+
+
  #container{
      display: flex;
      justify-content: center;
