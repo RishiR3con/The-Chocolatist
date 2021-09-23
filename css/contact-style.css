@@ -18,7 +18,7 @@ body {
   color: var(--clr-secondary-light);
 }
 
-h5 {
+b {
   margin-bottom: 1rem;
   font-weight: 700;
 }
@@ -141,7 +141,7 @@ html body {
   }
 
 
-  h5{
+  b{
     font-size: 1rem;
   }
 
@@ -190,7 +190,7 @@ footer{
     max-width: 30%;
   }
 
-  h5{
+  b{
     font-size: 1rem;
   }
 
