@@ -96,7 +96,7 @@ ul{
 }
 
 .rounded-corner{
-  background-color: var(--clr-secondary-light);;
+  background-color: var(--clr-secondary-light);
   border-radius: 10%;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
@@ -104,6 +104,12 @@ ul{
 
 #navbarSupportedContent{
   justify-content: flex-end;
+}
+
+input[type="text"],input[type="email"], textarea {
+
+  background-color : rgb(252, 246, 246) !important;  
+
 }
 
 
@@ -141,7 +147,7 @@ ul{
 
 @media (max-width:870px){
   .my-custom-row-1 {
-    background-color: var(--clr-secondary-light);
+    background-color: var(--clr-primary-light);
     height: 400px;
     color: var(--clr-primary-dark);
     font-size: 1rem;
@@ -168,6 +174,11 @@ ul{
   .div-btn{
     margin-top: 2px !important;
     
+  }
+
+  .circle{
+    background-color: var(--clr-secondary-light);
+
   }
 }
 
