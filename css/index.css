@@ -39,26 +39,21 @@ footer {
     background-color: #3c3c3c;
     color: #e1ddde;
     font-size: 70%;
+
+    width: 100%;
+    z-index: 9999;
+    padding: 0.5% 2%;
 }
 
 .home footer {
     position: fixed;
     bottom: 0;
     left: 0;
-    width: 100%;
-    z-index: 9999;
-    padding: 0.5% 2%;
 }
 
-.privacy footer,
-.terms footer {
-    width: 100%;
-    z-index: 9999;
-    padding: 0.5% 2%;
-}
 
 /*------*/
-/*NAVBAR*/
+/*HEADER*/
 /*-----*/
 
 .navbar {
@@ -66,7 +61,13 @@ footer {
     padding-bottom: 0;
 }
 
-
+.sticky-top {
+    font-size: 22px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
 /*LOGO*/
 
 .logo {
