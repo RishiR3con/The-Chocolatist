@@ -74,7 +74,6 @@ label{
 }
 
 
-
 .my-custom-row-2 {
   height: 500px;
   color: var(--clr-primary-dark);
@@ -86,11 +85,6 @@ label{
     color: var(--clr-primary-dark);
   }
 
-ul{
-  display: flex;
-  justify-content: left !important;
-  margin-left: 100px !important;
-}
 
 #social-links-contact{
   justify-content: flex-end !important;
@@ -131,6 +125,11 @@ input[type="text"],input[type="email"], textarea {
 }
 
 
+footer{
+  padding: 0.5% 2%;
+  font-size: 75%;
+}
+
 @media (max-width:1100px){
   .my-custom-row-1 {
     background-color: var(--clr-primary-light);
@@ -169,6 +168,10 @@ input[type="text"],input[type="email"], textarea {
     height: 400px;
     color: var(--clr-primary-dark);
     font-size: 1rem;
+  }
+
+  .btn-outline-dark{
+    margin-top: 20px;
   }
 
   .col-md-4{
