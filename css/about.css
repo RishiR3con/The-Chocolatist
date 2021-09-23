@@ -102,13 +102,12 @@
     font-weight: 900;
 }
 
-.team-member p {
-    line-height: 30px;
-    text-align: justify;
-    margin-bottom: 40px;
-    padding: 0 20px;
-    font-size: 13px;
-    color: #2B2B2B;
+.role{
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #b7b7b7;
+    font-style: italic;
+    font-weight: bold;
 }
 
 .team-member img {
