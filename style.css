@@ -17,13 +17,24 @@
     position: center;
     text-align: center;
     float: none;
+    text: bottom
 }
 .caption {
     text-align: center;
+    bottom: 0;
+    top: auto;
+    text: bottom
+}
+.carousel-caption {
+    bottom: auto;
+    text: bottom
 }
  .d-block {
-     position: center ;
+     position: absolute;
      margin: 25px 50px 75px 100px;
+     bottom: 0;
+     top: auto;
+     text: bottom
  }
 
  .image{
