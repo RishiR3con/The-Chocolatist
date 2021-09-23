@@ -6,6 +6,7 @@
     display: flex;
     object-fit: cover;
     /*make img cover*/
+    margin-top: 150px;
 }
 
 .about-section {
@@ -41,20 +42,32 @@
     /*color: #2B2B2B;
     font-size: 13px;*/
 }
-
+/*
 .inner-container a {
     text-decoration: none;
     color: #2B2B2B;
     transition: ease-in-out;
 }
 
-.contact-btn {
+
+.contact-btn{
     color: white;
+    border-color: #2B2B2B;
+}*/
+
+a:hover {
+    color: white;
+}
+
+.inner-container .btn{
+    background-color:#F2F2F2;
+    color: #2B2B2B;
     border-color: #2B2B2B;
 }
 
-.contact-btn:hover {
-    color: #656b79;
+.inner-container .btn:hover{
+    background-color: #B53471;
+    color: #e1ddde;
 }
 
 .team-container h1 {
