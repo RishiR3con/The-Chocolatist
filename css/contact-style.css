@@ -58,6 +58,17 @@ label{
   font-size: 1.2rem !important;
 }
 
+
+
+#row-1{
+  background-image: url("../images/charisse-kenion-tWe8ib-cnXY-unsplash.jpg") !important;
+  background-position: center;
+  background-size: 1920px;
+  display: flex;
+}
+
+
+
 .my-custom-row-2 {
   height: 500px;
   color: var(--clr-primary-dark);
