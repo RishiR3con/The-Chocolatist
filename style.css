@@ -9,6 +9,9 @@
 
     .bi-caret-left {color: #3c3c3c;}
     .bi-caret-right {color: #3c3c3c;}
+.carouselExampleCaptions{
+    padding-top: 150px;
+}
 
 
 .carousel-item {
@@ -42,6 +45,7 @@
      max-height: 100%;
      object-fit: cover;
      margin: 25px 50px 75px 100px;
+     padding-top: 150px;
  }
 
  footer {
@@ -51,4 +55,13 @@
      width: 100%;
      z-index: 9999;
      padding: 0.5% 2%;
+ }
+
+ #text{
+     text-align:
+ }
+ #container{
+     display: flex;
+     justify-content: center;
+     align-items: flex-end;
  }
