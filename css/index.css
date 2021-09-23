@@ -17,9 +17,12 @@ body {
     font-family: Lato, Arial, sans-serif;
     background-color: #e1ddde!important;
     color: #3c3c3c!important;
+    overflow-x: hidden;
 }
 
-.home {
+.home,
+.privacy,
+.terms {
     font-weight: 300;
     font-size: 22px;
 }
@@ -41,6 +44,14 @@ footer {
     position: fixed;
     bottom: 0;
     left: 0;
+    width: 100%;
+    z-index: 9999;
+    font-size: 70%;
+    padding: 0.5% 2%;
+}
+
+.privacy footer,
+.terms footer {
     width: 100%;
     z-index: 9999;
     font-size: 70%;
@@ -172,9 +183,10 @@ footer li a:active{
 
 .bi-facebook,
 .bi-twitter,
-.bi-instagram {
+.bi-instagram,
+.bi-envelope {
     transition: color 0.2s;
-    color: #888;
+    color: #e1ddde;
 }
 
 .bi-facebook:hover,
@@ -190,6 +202,11 @@ footer li a:active{
 .bi-instagram:hover,
 .bi-instagram:active {
     color: #bc2a8d;
+}
+
+.bi-envelope:hover,
+.bi-envelope:active {
+    color: #ff111d;
 }
 
 /*------------*/
@@ -240,23 +257,53 @@ h1 {
 /*PRIVACY*/
 /*-------*/
 
-.privacy {
+.privacy-background {
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../images/privacy-background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.privacy-text {
     width: 80%;
     margin: 150px auto;
     background-color: #e1ddde;
     color: #3c3c3c;
     border-radius: 15px;
     padding: 1%;
+    text-align: left;
 }
 
 .privacy-title {
     text-align: center;
 }
 
-.privacy-text {
+/*-----*/
+/*TERMS*/
+/*-----*/
+
+.terms-background {
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../images/terms-background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.terms-text {
+    width: 80%;
+    margin: 150px auto;
+    background-color: #e1ddde;
+    color: #3c3c3c;
+    border-radius: 15px;
+    padding: 1%;
     text-align: left;
 }
 
+.terms-title {
+    text-align: center;
+}
 
 /*----------------*/
 /*RESPONSIVE ITEMS*/
