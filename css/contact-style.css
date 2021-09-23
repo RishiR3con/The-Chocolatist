@@ -65,6 +65,12 @@ label{
   background-position: center;
   background-size: 1920px;
   display: flex;
+  
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 
@@ -82,7 +88,8 @@ label{
 
 ul{
   display: flex;
-  justify-content: center !important;
+  justify-content: left !important;
+  margin-left: 100px !important;
 }
 
 #social-links-contact{
