@@ -80,9 +80,9 @@ h2 {
       width: 300px;
       height: 900px;
       text-align: center;
-      position: bottom;
+      position: center;
     }
-    .carousel-item {
+    .carousel-item active{
       position: center;
     }
     .carousel slide{
@@ -90,5 +90,12 @@ h2 {
       width: 300px;
       height: 900px;
       text-align: center;
-      position: bottom;
+      position: center;
     }
+.image {
+  margin-bottom: 20px;
+  width: 30px;
+  height: 150px;
+  text-align: center;
+  position: center;
+}
