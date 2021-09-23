@@ -170,6 +170,10 @@ footer{
     font-size: 1rem;
   }
 
+  .btn-outline-dark{
+    margin-top: 20px;
+  }
+
   .col-md-4{
     flex-grow: 1; 
     max-width:40%;
