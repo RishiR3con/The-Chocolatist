@@ -19,10 +19,11 @@
     <link rel="stylesheet" href="css/index.css">
     <title>The Chocolatist</title>
     <!--until here -->
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-58N1GRGVDF%22%3E"></script>
     <script>
+
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
@@ -31,11 +32,14 @@
     </script>
 
     <script>
-        const params = new URLSearchParams(window.location.search)
-        console.log(params.get('msg'))
-        if (params.get('msg') == 'true') {
-            window.alert("Thank you for your message! We'll get back to you as soon as possible :D")
-        }
+        $(document).ready(function () {
+            const params = new URLSearchParams(window.location.search)
+            console.log(params.get('msg'))
+            if (params.get('msg') == 'true') {
+                window.alert("Thank you for your message! We'll get back to you as soon as possible :D")
+            }
+        });
+
     </script>
 
 
