@@ -38,6 +38,7 @@ footer {
     overflow: hidden;
     background-color: #3c3c3c;
     color: #e1ddde;
+    font-size: 70%;
 }
 
 .home footer {
@@ -46,7 +47,6 @@ footer {
     left: 0;
     width: 100%;
     z-index: 9999;
-    font-size: 70%;
     padding: 0.5% 2%;
 }
 
@@ -54,7 +54,6 @@ footer {
 .terms footer {
     width: 100%;
     z-index: 9999;
-    font-size: 70%;
     padding: 0.5% 2%;
 }
 
@@ -268,7 +267,7 @@ h1 {
 .privacy-text {
     width: 80%;
     margin: 150px auto;
-    background-color: #e1ddde;
+    background-color: #e1dddedd;
     color: #3c3c3c;
     border-radius: 15px;
     padding: 1%;
