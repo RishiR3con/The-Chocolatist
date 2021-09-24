@@ -51,6 +51,8 @@ Check out [our website](https://minjie0501.github.io/The-Chocolatist/index.html)
    ![Mobile](images/TheChocolatist_MobileOpenSnippet.png)
 3. Carousel
    ![Carousel](images/TheChocolatist_CarouselSnippet.png)
+4. The lighthouse test results
+   ![Lighthouse](images/TheChocolatist_LighthouseSnippet.png)
 
 ***
 
